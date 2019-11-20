@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+  }
+  .logo {
+      max-width: 3rem;
+      height: 3rem;
+  }
+  .bgimage {
+    width:100%;
+    height:600px;
+    background: url('https://images.unsplash.com/1/irish-hands.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+  }
+  a.links:hover{
+    color:none;
+    text-decoration: none;
+}
+  .contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 80vh;
+    padding: 0 2rem;
+    background: #ffebee;
+    color: #ff4444;
+  }
+  .contact-section-header > p {
+    font-style: italic;
+  }
+  .contact-links {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 980px;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .contact-details {
+    transition: transform 0.3s ease-out;
+    padding: 0rem 0.5rem;
+    color: #ff4444;
+  }
+  
+  .contact-details:hover {
+    transform: translateY(8px);
+    color: #d50000;
+  }
