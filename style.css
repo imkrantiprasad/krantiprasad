@@ -1,61 +1,64 @@
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Poppins', sans-serif;
+	margin: 0;
+	padding: 0;
+	font-family: "Poppins", sans-serif;
 }
 .logo {
-  max-width: 3rem;
-  height: 3rem;
+	max-width: 3rem;
+	height: 3rem;
+}
+.navbar {
+	background-color: #ee322b;
 }
 .bgimage {
-  width: 100%;
-  height: 600px;
-  background: url('https://images.unsplash.com/1/irish-hands.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
+	width: 100%;
+	height: 600px;
+	background: url("https://images.unsplash.com/1/irish-hands.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
 }
 a.links:hover {
-  color: none;
-  text-decoration: none;
+	color: none;
+	text-decoration: none;
 }
 .contact-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  width: 100%;
-  height: 50vh;
-  padding: 0 2rem;
-  background: #ffebee;
-  color: #ff4444;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	width: 100%;
+	height: 50vh;
+	padding: 0 2rem;
+	background: #ffebee;
+	color: #ff4444;
 }
 .contact-section-header > p {
-  font-style: italic;
+	font-style: italic;
 }
 .contact-links {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  max-width: 980px;
-  margin-top: 2rem;
-  flex-wrap: wrap;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	max-width: 980px;
+	margin-top: 2rem;
+	flex-wrap: wrap;
 }
 
 .contact-details {
-  transition: transform 0.3s ease-out;
-  padding: 0rem 0.5rem;
-  color: #ff4444;
+	transition: transform 0.3s ease-out;
+	padding: 0rem 0.5rem;
+	color: #ff4444;
 }
 
 .contact-details:hover {
-  transform: translateY(8px);
-  color: #d50000;
+	transform: translateY(8px);
+	color: #d50000;
 }
 
 /* @charset "UTF-8";
@@ -74,84 +77,84 @@ body {
   box-sizing: border-box;
 } */
 body * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 .timeline {
-  width: 100%;
-  max-width: 800px;
-  background: #fff;
-  padding: 100px 50px;
-  position: relative;
-  box-shadow: 0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2);
+	width: 100%;
+	max-width: 800px;
+	background: #fff;
+	padding: 100px 50px;
+	position: relative;
+	box-shadow: 0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2);
 }
 .timeline:before {
-  content: '';
-  position: absolute;
-  top: 0px;
-  left: calc(33% + 15px);
-  bottom: 0px;
-  width: 4px;
-  background: #ddd;
+	content: "";
+	position: absolute;
+	top: 0px;
+	left: calc(33% + 15px);
+	bottom: 0px;
+	width: 4px;
+	background: #ddd;
 }
 .timeline:after {
-  content: '';
-  display: table;
-  clear: both;
+	content: "";
+	display: table;
+	clear: both;
 }
 
 .entry {
-  clear: both;
-  text-align: left;
-  position: relative;
+	clear: both;
+	text-align: left;
+	position: relative;
 }
 .entry .title {
-  margin-bottom: 0.5em;
-  float: left;
-  width: 33%;
-  padding-right: 30px;
-  text-align: right;
-  position: relative;
+	margin-bottom: 0.5em;
+	float: left;
+	width: 33%;
+	padding-right: 30px;
+	text-align: right;
+	position: relative;
 }
 .entry .title:before {
-  content: '';
-  position: absolute;
-  width: 8px;
-  height: 8px;
-  border: 4px solid salmon;
-  background-color: #fff;
-  border-radius: 100%;
-  top: 15%;
-  right: -8px;
-  z-index: 99;
+	content: "";
+	position: absolute;
+	width: 8px;
+	height: 8px;
+	border: 4px solid salmon;
+	background-color: #fff;
+	border-radius: 100%;
+	top: 15%;
+	right: -8px;
+	z-index: 99;
 }
 .entry .title h3 {
-  margin: 0;
-  font-size: 120%;
+	margin: 0;
+	font-size: 120%;
 }
 .entry .title p {
-  margin: 0;
-  font-size: 100%;
+	margin: 0;
+	font-size: 100%;
 }
 .entry .body {
-  margin: 0 0 3em;
-  float: right;
-  width: 66%;
-  padding-left: 30px;
+	margin: 0 0 3em;
+	float: right;
+	width: 66%;
+	padding-left: 30px;
 }
 .entry .body p {
-  line-height: 1.4em;
+	line-height: 1.4em;
 }
 .entry .body p:first-child {
-  margin-top: 0;
-  font-weight: 400;
+	margin-top: 0;
+	font-weight: 400;
 }
 .entry .body ul {
-  color: #aaa;
-  padding-left: 0;
-  list-style-type: none;
+	color: #aaa;
+	padding-left: 0;
+	list-style-type: none;
 }
 .entry .body ul li:before {
-  content: '–';
-  margin-right: 0.5em;
+	content: "–";
+	margin-right: 0.5em;
 }
