@@ -9,6 +9,7 @@ body {
 .logo {
 	max-width: 3rem;
 	height: 3rem;
+	opacity: 0.4;
 }
 .navbar {
 	background-color: #ee322b;
